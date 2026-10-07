@@ -1,0 +1,9 @@
+# MARIA — Python Dependencies
+# Phase 1: Foundation
+# 
+# No runtime dependencies yet.
+# Dependencies will be added incrementally as each development phase begins.
+# See ROADMAP.md for the phased plan.
+#
+# To install dev dependencies:
+#   pip install -e ".[dev]"

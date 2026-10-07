@@ -1,0 +1,75 @@
+# ============================================
+# MARIA .gitignore
+# ============================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.production
+*.enc
+credentials/
+secrets/
+*.key
+*.pem
+
+# --- Database ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- OS ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+# --- Testing ---
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Distribution ---
+*.tar.gz
+*.zip
+
+# --- MARIA specific ---
+.maria/
+audit/
+data/
