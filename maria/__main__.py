@@ -1,7 +1,5 @@
 """Entry point for running MARIA as a module: python -m maria"""
 
-import sys
-
 
 def main() -> None:
     """MARIA application entry point."""
